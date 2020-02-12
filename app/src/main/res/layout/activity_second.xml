@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/onCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+        />
+    <!--android:text="onCreate() of Second Activity"-->
+
+    <TextView
+        android:id="@+id/onStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+        />
+    <!--android:text="onStart() of Second Activity"-->
+
+    <TextView
+        android:id="@+id/onResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+        />
+    <!--android:text="onResume() of Second Activity"-->
+
+    <TextView
+        android:id="@+id/onPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+        />
+    <!--android:text="onPause() of Second Activity"-->
+
+    <TextView
+        android:id="@+id/onStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+        />
+    <!--android:text="onStop() of Second Activity"-->
+
+
+    <TextView
+        android:id="@+id/onRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+        />
+
+    <!--android:text="onRestart() of Second Activity"-->
+
+
+    <TextView
+        android:id="@+id/onDestroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+
+        />
+    <!--android:text="onDestroy() of Second Activity"-->
+
+</LinearLayout>

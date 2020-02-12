@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/onCreate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="-------------------------"
+        android:textSize="18sp"
+
+
+        />
+    <!--android:text="onCreate()"-->
+
+    <TextView
+        android:id="@+id/onStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:text="-------------------------"
+        android:textSize="18sp"
+
+
+        />
+    <!--android:text="onStart()"-->
+    <TextView
+        android:id="@+id/onResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+
+        />
+    android:text="onResume()"
+
+    <TextView
+        android:id="@+id/onPause"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+
+        />
+    <!--android:text="onPause()"-->
+    <TextView
+        android:id="@+id/onStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+        />
+    <!--android:text="onStop()"-->
+
+    <TextView
+        android:id="@+id/onRestart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+
+        />
+    android:text="onRestart()"
+
+
+    <TextView
+        android:id="@+id/onDestroy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:text="-------------------------"
+
+
+
+        />
+    <!--onDestroy()-->
+
+    <Button
+        android:id="@+id/click"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:text="Click"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+
+
+        />
+
+
+</LinearLayout>
