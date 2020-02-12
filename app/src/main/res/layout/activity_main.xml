@@ -43,7 +43,7 @@
 
 
         />
-    android:text="onResume()"
+    <!--android:text="onResume()"-->
 
     <TextView
         android:id="@+id/onPause"
@@ -83,7 +83,7 @@
 
 
         />
-    android:text="onRestart()"
+    <!--android:text="onRestart()"-->
 
 
     <TextView
